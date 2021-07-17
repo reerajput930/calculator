@@ -86,4 +86,7 @@ border:none;
 .result_button1{
     width: 200px;
 }
+button:focus{
+    display: none;
+}
 
