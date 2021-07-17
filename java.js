@@ -16,11 +16,10 @@ for(items of user_input){
             screen.value = "";
         }
         else if(button_text== '='){
+
             screen.value = eval(screen_input)
-            // if (button_text) {
-                
-            // }
-            screen_input ="";
+            screen_input = screen.value;
+            console.log(screen_input)
         }
 
         else{
