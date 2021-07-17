@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    height: 100vh;
+
+}
+
+.majorblock{
+    background-color: white;
+    height: 57vh;
+    width: 336px;
+    display: grid;
+    margin-top: 50px;
+    grid-template-rows: 150px auto;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+}
+
+.cal_screen{
+    background-color: #ffffffd1;
+    border: 5px solid white;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+input{
+    background-color: white;
+    border: none;
+    height: 69px;
+    width: 278px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.digit{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+}
+table{
+    background-color: white;
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+}
+
+td,tr{
+    background-color: white;
+    border-bottom-left-radius: 30px ;
+    height: 97px;
+    width: 84px;
+}
+
+button{
+  
+color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 60px;
+ width: 60px;
+ border-radius: 19px;
+ background-color: black;
+ box-shadow: 5px 3px 9px -1px black;
+margin-top: 23px;
+margin-left: 15px;
+font-weight: bold;
+font-size: 20px;
+border:none;
+
+
+}
+button:focus{
+    outline: none;
+}
+.result_button1{
+    width: 200px;
+}
+
