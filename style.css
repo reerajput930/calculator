@@ -87,6 +87,6 @@ border:none;
     width: 200px;
 }
 button:focus{
-    display: none;
+    outline: none;
 }
 
