@@ -19,7 +19,7 @@ for(items of user_input){
 
             screen.value = eval(screen_input)
             screen_input = screen.value;
-            console.log(screen_input)
+     
         }
 
         else{
